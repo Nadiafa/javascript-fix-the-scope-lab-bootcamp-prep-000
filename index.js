@@ -15,13 +15,12 @@ function yourAnimal() {
 function add2(n) {
   const two =2
   return n+=two
-
   // Feel free to move things around!
   // const two = 2
 }
 
 var funkyFunction = function() {
-  return function() {
+  return function theFunk() {
     return "FUNKY!"
   }
 }
@@ -30,13 +29,6 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction
 
-
-// describe('add2(n)', function() {
-//     it('adds two to n', function() {
-//       const n = Math.floor(Math.random() * 1000)
-//       expect(window.add2(n)).toEqual(n + 2)
-//     })
-//   })
 
 //   describe('funkyFunction()', function() {
 //     it('returns a function', function() {
